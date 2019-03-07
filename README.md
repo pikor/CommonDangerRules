@@ -1,2 +1,2 @@
-# DangerRules
+# CommonDangerRules
 Testing how Danger plugins work.
