@@ -7,7 +7,7 @@ let package = Package(
     name: "CommonDangerRules",
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
-        .library( name: "CommonDangerRules", targets: ["CommonDangerRules"]),
+        .library(name: "CommonDangerRules", targets: ["CommonDangerRules"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -18,7 +18,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "CommonDangerRules",
-            dependencies: ["Danger"]),
+            dependencies: ["Danger"],
+            path: "Sources"),
         .testTarget(
             name: "CommonDangerRulesTests",
             dependencies: ["CommonDangerRules"]),
