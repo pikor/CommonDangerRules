@@ -2,15 +2,6 @@
   "object": {
     "pins": [
       {
-        "package": "danger-swift",
-        "repositoryURL": "https://github.com/danger/danger-swift.git",
-        "state": {
-          "branch": null,
-          "revision": "9d1ae06905f28c486b01058194e3e7acfa839949",
-          "version": "1.4.0"
-        }
-      },
-      {
         "package": "Files",
         "repositoryURL": "https://github.com/JohnSundell/Files.git",
         "state": {
@@ -80,6 +71,15 @@
           "branch": null,
           "revision": "d3d54ce662dfee7fef619330b71d251b8d4869f9",
           "version": "2.2.0"
+        }
+      },
+      {
+        "package": "danger-swift",
+        "repositoryURL": "https://github.com/danger/swift.git",
+        "state": {
+          "branch": null,
+          "revision": "9d1ae06905f28c486b01058194e3e7acfa839949",
+          "version": "1.4.0"
         }
       },
       {
