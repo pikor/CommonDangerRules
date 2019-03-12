@@ -1,2 +1,3 @@
 # CommonDangerRules
-Testing how Danger plugins work.
+
+A description of this package.
